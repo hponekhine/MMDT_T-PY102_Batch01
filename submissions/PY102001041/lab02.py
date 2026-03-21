@@ -39,7 +39,7 @@ def is_balanced_parentheses(s: str) -> bool:
     }
     stack_list = deque()
     
-    for char in s:
+    for char in input_str:
 
         # process for keys
         if char in bracket_pairs:
